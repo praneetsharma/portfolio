@@ -1,3 +1,10 @@
+.navbar {
+  border: 0;
+  margin: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .navbar-brand {
   color: #2471A3 !important; /*override gray color of navbar-brand text color*/
   font-weight: bold;
@@ -15,4 +22,27 @@
 .active a {
   background-color: #3498DB !important;
   color: white !important;
+}
+
+.vertical-center {
+  display: inline-block;
+
+}
+
+#home-screen {
+  margin: auto;
+  background-color: #68C2D4;
+}
+
+#home-screen .row {
+  vertical-align: middle;
+  margin: 5%;
+}
+
+#home-screen h1 {
+  color: #FFF8DC;
+}
+
+#profile-pic {
+  height: 40%;
 }

@@ -2,19 +2,20 @@
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="scripts/myscript.js"></script>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="100">
 
     <!-- NAVIGATION BAR with the following items:
       *Name on left hand side
       *Following menu items on right hand side: About, Portfolio, Contact
     -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
           <!-- Button to toggle menu items on small screen devices-->
@@ -28,13 +29,39 @@
 
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">ABOUT</a></li>
+            <!-- <li><a href="#home-screen">HOME</a></li> -->
+            <li><a href="#about-screen">ABOUT</a></li>
             <li><a href="#">PORTFOLIO</a></li>
             <li><a href="#">CONTACT</a></li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <header>
+      <div class="container-fluid " id="home-screen">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-center">PRANEET SHARMA</h1>
+            <h2 class="text-center">Software Engineer, &lt;Company&gt;</h2>
+            <h2 class="text-center">B.Tech CSE (with Hons.), &lt;College&gt;</h2>
+          </div>
+          <div class="col-md-4">
+            <img src="./img/profile.jpg" class="img-responsive img-rounded center-block" id="profile-pic"/>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container-fluid" id="about-screen">
+      <div class="row">
+        <div class="col-md-6 col-xs-6">
+          <h1 class="text-center">PRANEET SHARMA</h1>
+          <h2 class="text-center">Software Engineer</h2>
+          <h2 class="text-center">B.Tech CSE (with Hons.)</h2>
+        </div>
+      </div>
+    </div>
 
   </body>
 </html>
