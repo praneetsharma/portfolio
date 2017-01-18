@@ -52,6 +52,8 @@ NAVIGATION
 
 }
 
+/* HOME SCREEN */
+
 #home-screen {
 
 }
@@ -61,7 +63,7 @@ NAVIGATION
   margin: 5%;
 }
 
-#home-screen h1 {
+#home-screen h1, h2 {
   color: #FFF8DC;
 }
 
