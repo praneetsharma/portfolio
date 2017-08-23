@@ -7,8 +7,14 @@ body {
   Main color: #3498DB
   Alt color: #00CDCD;
 */
-.navbar, .active a, #home-screen {
-  background-color: #3498DB !important;
+.navbar, .active a {
+  background-color: #618685 !important;
+  color: #f18973 !important;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#home-screen {
+  background-color: #f7786b;
 }
 
 /* Background-color Color 2 */
@@ -16,35 +22,35 @@ body {
 
 
 /*
-----------------------------------
+---------------------
 NAVIGATION
 ---------------------
 */
 .navbar {
   border: 0;
-  margin: 0;
 }
 
 .navbar-brand {
-  color: #2471A3 !important; /*override gray color of navbar-brand text color*/
   color: white !important;
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 2.4em;
+  border: 1px solid black;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
 .navbar-nav li a {
   font-weight: bold;
-
+  color: white !important;
 }
 
-.navbar-nav li : hover {
+.navbar-nav li :hover {
   color: white !important;
-  background-color: white !important;
+  background-color: black !important;
 }
 
 .active a {
   color: #3498DB !important;
-  background-color: white !important;
+  background-color: black !important;
 }
 
 .vertical-center {
@@ -63,8 +69,21 @@ NAVIGATION
   margin: 5%;
 }
 
-#home-screen h1, h2 {
-  color: #FFF8DC;
+#home-screen h1 {
+  font-size: 40px;
+}
+
+#home-screen h2 {
+  font-style: italic;
+}
+
+#home-screen h1, h2, h3 {
+  color: #fefbd8;
+  font-style: italic; 
+}
+
+#home-screen .social-links {
+  background-color: white;
 }
 
 #profile-pic {
